@@ -50,6 +50,14 @@ function App() {
           <ReactMarkdown>{text}</ReactMarkdown>
         </div>
       </div>
+      <footer className="fixed-bottom ms-2 mb-2">
+        <small>
+          Developed by{" "}
+          <a className="link-primary" href="https://github.com/ShadeVI">
+            ShadeVI
+          </a>
+        </small>
+      </footer>
     </div>
   );
 }
